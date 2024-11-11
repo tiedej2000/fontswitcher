@@ -108,3 +108,50 @@ b {
 .wrapper-altalt .subtext {
     color: #4b2e2d;
 }
+
+
+/* Media Query für kleinere Bildschirme (z.B. Handys) */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 20px 30px; /* Weniger Padding auf kleinen Bildschirmen */
+        width: 100%; /* Wrapper soll die volle Breite einnehmen */
+    }
+
+    .heading {
+        font-size: 30px; /* Kleinere Schriftgröße auf kleineren Bildschirmen */
+    }
+
+    .subheading {
+        font-size: 14px; /* Kleinere Schriftgröße für Subheading */
+        letter-spacing: 2px; /* Weniger Abstand zwischen Buchstaben */
+    }
+
+    .subtext {
+        font-size: 14px; /* Größere Schriftgröße für bessere Lesbarkeit */
+    }
+
+    #change-font-btn {
+        width: 100%; /* Button soll die volle Breite einnehmen */
+        padding: 15px 0; /* Mehr Padding für den Button */
+        font-size: 18px; /* Größere Schrift im Button */
+    }
+}
+
+/* Media Query für noch kleinere Bildschirme (z.B. Handys im Hochformat) */
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 15px 20px; /* Noch weniger Padding */
+    }
+
+    .heading {
+        font-size: 24px; /* Noch kleinere Schrift für die Heading */
+    }
+
+    .subheading {
+        font-size: 12px; /* Kleinere Schriftgröße */
+    }
+
+    .subtext {
+        font-size: 12px; /* Noch kleinere Schrift für Subtext */
+    }
+}
