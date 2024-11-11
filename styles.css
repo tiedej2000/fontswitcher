@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px 50px 200px;
+    gap: 10px;
+    width: 500px;
+    background-color: #FAF5E4;
+    margin-top: 0px;
+}
+
+.subtext {
+    font-family: "Libre Baskerville", serif;
+    font-size: 12px;
+    width: 90%;
+    text-align: left;
+    color: #2D1E1E;
+}
+
+.subheading {
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4.5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #2D1E1E;
+}
+
+.heading {
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+    border-bottom: 2px solid #2D1E1E;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #2D1E1E;
+}
+
+b {
+    font-size: larger;
+}
+
+#change-font-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #2D1E1E;
+    color: #FAF5E4;
+    font-size: 18px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: "Signika Negative", sans-serif;
+    transition: background-color 0.3s ease;
+    width: 900px;
+    margin-bottom: 10px;
+}
+
+
+#font-info {
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #2D1E1E;
+}
+
+/* Font change styles */
+.wrapper-alt {
+    background-color: #2D1E1E;
+}
+
+.wrapper-alt .heading {
+    color: #FAF5E4;
+    border-color: #FAF5E4;
+}
+
+.wrapper-alt .subheading {
+    color: #FAF5E4;
+}
+
+.wrapper-alt .subtext {
+    color: #FAF5E4;
+}
+
+/* Additional Styles for other font themes */
+.wrapper-altalt {
+    background-color: #D3B99F;
+}
+
+.wrapper-altalt .heading {
+    color: #4b2e2d;
+    border-color: #4b2e2d;
+}
+
+.wrapper-altalt .subheading {
+    color: #4b2e2d;
+}
+
+.wrapper-altalt .subtext {
+    color: #4b2e2d;
+}
